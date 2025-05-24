@@ -1,19 +1,29 @@
+# Environment variables
 .env
-node_modules
 
+# Node.js dependencies
+node_modules/
+
+# Go build artifacts
+*.exe
+*.out
 *.o
 *.a
 *.so
 
-_obj
-_test
+# Go temporary & test files
+_obj/
+_test/
 vendor/
 
-*.exe
-*.out
-
+# Editor/OS-specific files
 .DS_Store
 
-/bin/
+# Logs
+*.log
 
-*.out
+# VS Code settings (optional)
+.vscode/
+
+# Build output
+/bin/
