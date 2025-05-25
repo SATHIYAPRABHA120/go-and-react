@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	
+	"github.com/gofiber/fiber/v2/middleware/cors"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
@@ -53,10 +53,10 @@ func main () {
 
 	app := fiber.New()
 
-	// app.Use(cors.New(cors.Config{
-	// AllowOrigins: "http://localhost:5173",
-	// AllowHeaders: "Origin, Content-Type, Accept",
-	// }))
+	app.Use(cors.New(cors.Config{
+	AllowOrigins: "http://localhost:5173",
+	AllowHeaders: "Origin, Content-Type, Accept",
+	}))
 
 	app.Get("/api/todos" , getTodos)
 	app.Post("/api/todos" , createTodo)
