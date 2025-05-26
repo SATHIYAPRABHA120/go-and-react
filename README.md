@@ -1,27 +1,41 @@
-# TODAY-TASK Manager using Go and React
+# 📅 TODAYS-TASK Manager using Go and React
 
-This is a full-stack task management app built using Go for the backend and React with TypeScript for the frontend.
-
----
-
-## Features
-
-- Perform CRUD operations on tasks  
-- Mark tasks as completed  
-- Responsive, accessible UI built with React and Chakra UI  
-- Environment-aware API configuration for flexible deployment  
-- Robust error handling and data fetching using React Query  
+**TODAY'S-TASK** is a full-stack task management application built with a **Go** backend and a **React + TypeScript** frontend. It enables users to manage tasks efficiently with a modern and responsive UI.
 
 ---
 
-## Tools Used
+## 🚀 Features
 
-- **Go** — High-performance backend API server  
-- **React + TypeScript** — Type-safe and scalable frontend UI development  
-- **MongoDB** — NoSQL database for flexible and scalable data storage  
-- **Chakra UI** — Accessible and modular component library for styling  
-- **React Query (TanStack Query)** — Efficient server state management, caching, and data synchronization  
-- **Fetch API** — Native HTTP client for API requests   
+- 📝 Perform **CRUD** operations on tasks  
+- ✅ Mark tasks as completed  
+- 💻 Responsive and accessible UI using **Chakra UI**  
+- 🌍 Environment-aware API configuration for deployment flexibility  
+- ⚙️ Efficient data fetching and caching via **React Query (TanStack Query)**  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Go  
+- **Frontend:** React + TypeScript  
+- **Styling:** Chakra UI  
+- **Database:** MongoDB  
+- **Data Fetching:** React Query + native Fetch API  
+- **Frontend Build Tool:** Vite  
+
+---
+
+## 📦 Tools & Libraries
+
+| Tool            | Purpose                                  |
+|-----------------|------------------------------------------|
+| **Go**          | High-performance backend API             |
+| **React**       | Interactive and modular UI               |
+| **TypeScript**  | Type safety and better developer tooling |
+| **MongoDB**     | Flexible and scalable data storage       |
+| **Chakra UI**   | UI components with accessibility in mind |
+| **React Query** | Server state management and caching      |
+| **Vite**        | Lightning-fast frontend development      |
 
 ---
 
@@ -56,6 +70,6 @@ This is a full-stack task management app built using Go for the backend and Reac
     - MONGODB_URI = mongodb+srv://username:password@cluster0.6sdqxgs.mongodb.net/database_name?retryWrites=true&w=majority&appName=Cluster0
     - ENV = development
 
-### Video Demonstration : (Demo)[https://drive.google.com/file/d/1SbqLjRBduqNKe-1cQg9OiXs6QI4ebzIN/view?usp=sharing]
+### Video Demonstration : [Demo](https://drive.google.com/file/d/1SbqLjRBduqNKe-1cQg9OiXs6QI4ebzIN/view?usp=sharing)
 
    
