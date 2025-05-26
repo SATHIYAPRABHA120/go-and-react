@@ -54,7 +54,7 @@
    - cd go-and-react
 
 2.Start the backend API server (ensure MongoDB is running):
-  - cd client 
+  - cd go-and-react
   - go run main.go
 
 3.Start the frontend development server:
